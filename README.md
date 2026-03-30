@@ -12,7 +12,8 @@ Ten folder zawiera przykładową aplikację PHP (język nieobsługiwany natywnie
 1.  Zaloguj się do panelu [Render Dashboard](https://dashboard.render.com).
 2.  Kliknij przycisk **New +** i wybierz **Web Service**.
 3.  Wybierz swoje repozytorium z listy.
-![s1](images/s1.png)
+![s1](images/s1.png)  
+
 4.  W polu **Runtime** wybierz **Docker**.
 ![s2](images/s2.png)
 
@@ -42,7 +43,7 @@ Render oferuje dedykowane rozwiązanie **Managed PostgreSQL**, które jest najpr
 ![s4](images/s4.png)
 Klikamy na **Create database** i czekamy na utworzenie bazy danych.  
 
-2.  Po utworzeniu bazy, skopiuj **Internal Database URL**.
+2.  Po utworzeniu bazy skopiuj **Internal Database URL**.
 ![s5](images/s5.png)
 
 3.  W ustawieniach swojego Web Serwisu, w zakładce **Environment**, dodaj zmienną `DATABASE_URL` i wklej skopiowany link.
@@ -56,12 +57,20 @@ Klikamy na **Create database** i czekamy na utworzenie bazy danych.
 ![s7](images/s7.png)
 
 - czekamy na zbudowanie obrazu Dockerowego:  
-![s8](images/s8.png)
+![s8](images/s8.png)  
+
 - i po kilku minutach:  
 ![s9](images/s9.png)  
+
 - i nasz serwer jest gotowy: [link do naszej aplikacji](https://render-test-dockerfile-with-php.onrender.com/)!
 
 ![s10.png](images/s10.png)
+
+- pojawiło się ostrzeżenie związane z błędną nazwą zmiennej. Po poprawkach wybieramy opcję `Deploy latest commmit`:  
+![s11.png](images/s11.png)  
+
+- i tym razem wszystko działa jak nalezy:
+![s12.png](images/s12.png)
 ---
 
 
