@@ -62,15 +62,17 @@ Klikamy na **Create database** i czekamy na utworzenie bazy danych.
 - i po kilku minutach:  
 ![s9](images/s9.png)  
 
-- i nasz serwer jest gotowy: [link do naszej aplikacji](https://render-test-dockerfile-with-php.onrender.com/)!
+- i nasz serwer jest gotowy: [link do aplikacji](https://render-test-dockerfile-with-php.onrender.com/)!
 
 ![s10.png](images/s10.png)
 
 - pojawiło się ostrzeżenie związane z błędną nazwą zmiennej. Po poprawkach wybieramy opcję `Deploy latest commmit`:  
 ![s11.png](images/s11.png)  
 
-- i tym razem wszystko działa jak nalezy:
-![s12.png](images/s12.png)
+
+- i tym razem wszystko działa jak należy:  
+![s12.png](images/s12.png)  
+
 ---
 
 
