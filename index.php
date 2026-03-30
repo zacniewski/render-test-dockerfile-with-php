@@ -9,7 +9,7 @@ $dbUser = getenv('DB_USER') ?: 'root';
 $dbPass = getenv('DB_PASS') ?: '';
 
 // Sprawdzenie, czy to żądanie to tylko sprawdzenie stanu (Health Check)
-if ($_SERVER['REQUEST_REQUEST_URI'] === '/health') {
+if (isset($_SERVER['REQUEST_URI']) && $_SERVER['REQUEST_URI'] === '/health') {
     http_response_code(200);
     echo "OK";
     exit;
